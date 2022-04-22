@@ -1,0 +1,299 @@
+.container {
+    width: 100%;
+}
+
+.header {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    max-width: 1280px;
+    text-decoration: none;
+}
+.burger_menu {
+    display: none;
+}
+.right_menu {
+    display: flex;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    font-family: Inter, serif;
+    align-items: center;
+    text-decoration: none;
+}
+
+.blogContact_1 {
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.blogContact {
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.download {
+    margin-right: 20px;
+
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.menu {
+    margin-right: 30px;
+}
+
+.head_menu {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.link_menu {
+    margin-right: 20px;
+}
+
+.link_menu1 {
+    margin-right: 20px;
+}
+
+.button {
+    background: #6e51e0;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.button_burgerMenu_googlePlay_375px {
+    display: none;
+}
+
+.section_one {
+    display: flex;
+    height: 700px;
+}
+.section_one_left_block {
+    margin-left: 80px;
+    margin-top: 70px;
+
+}
+.section_one_text_first {
+    font-family: Inter;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 74px;
+    letter-spacing: 0.039px;
+    text-align: left;
+
+}
+.section_one_text_second {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.039px;
+    text-align: left;
+    margin-top: 20px;
+}
+.section_one_buttons {
+    display: flex;
+    margin-top: 50px;
+}
+.button_google_play {
+    margin-right: 20px;
+}
+.section_one_right_image {
+    text-align: center;
+    position: relative;
+}
+
+
+.section_two {
+    display: flex;
+    height: 630px;
+    background-image: url(/img/fonsection2.png);
+    margin-top: -60px;
+}
+
+.section_two_left_images {
+    margin-top: 73px;
+}
+
+.section_two_right {
+    margin-top: 176px;
+}
+
+.section_two_text_right_one {
+    font-family: Inter;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0.039px;
+    text-align: left;
+    color: white;
+    margin-top: 20px;
+    margin-left: -3px;
+}
+
+.section_two_text_right_two {
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.039px;
+    text-align: left;
+    color: white;
+    margin-top: 15px;
+}
+.section_three {
+    background-image: url(/img/fonsection3.jpg);
+    height: 630px;
+    display: flex;
+}
+
+.section_three_section_left {
+    margin-top: 160px;
+    margin-left: 80px;
+}
+.section_three_left_ellipse{
+    margin-left: 4px;
+}
+.section_three_left_text_one {
+    font-family: Inter;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0.039px;
+    text-align: left;
+    color: white;
+    margin-top: 20px;
+}
+
+.section_three_left_text_two {
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.039px;
+    text-align: left;
+    color: white;
+    margin-top: 15px;
+}
+
+.section_three_image_right {
+    margin-top: -40px;
+}
+
+.section_four {
+    display: flex;
+    height: 630px;
+    background-image: url(/img/fonsection4.jpg);
+}
+
+@media (max-width: 375px) {
+    .container {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+        display: block;
+    }
+    .header {
+        max-width: 375px;
+        margin-left: 60px;
+    }
+
+    .right_menu {
+
+        display: block;
+        width: 375px;
+    }
+
+    .blogContact {
+        display: none;
+    }
+
+    .download {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .burger_menu {
+        border-bottom: 17px double grey;
+        border-top: 6px solid grey;
+        content: "";
+        height: 5px;
+        width: 30px;
+        display: block;
+        margin-left: -40px;
+    }
+    .logo {
+        margin-left: -10px;
+    }
+    .section_one {
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+        display: block;
+        margin-top: -80px;
+    }
+    .section_one_left_block{
+        margin-left: 0px;
+    }
+
+    .section_one_text_first {
+        text-align:center;
+    }
+    .section_one_text_second {
+        text-align: center;
+    }
+    .section_one_right_image {
+        margin-left: -145px;
+    }
+
+    .button_google_play {
+    display: none;
+}
+    .button_app_store {
+        margin-left: 80px;
+        margin-bottom: 30px;
+        margin-top: -10px;
+}
+    .section_two {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 460px;
+        display: flex;
+        flex-flow: wrap;
+        height: 1000px;
+    }
+    .section_two_left_images {
+        margin-left: -160px;
+        margin-top: 10px;
+        order: 2;
+    }
+    .section_two_right {
+        order:1;
+        text-align:center;
+        margin-top: 110px;
+    }
+    .section_two_text_right_one {
+        text-align:center;
+    }
+    .section_two_text_right_two {
+        text-align:center;
+    }
+
+}
+
+
