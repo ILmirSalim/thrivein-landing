@@ -211,7 +211,6 @@ a {
     }
 
     .right_menu {
-
         display: block;
         width: 375px;
     }
@@ -229,16 +228,16 @@ a {
     }
 
     .burger_menu {
-        border-bottom: 17px double grey;
-        border-top: 6px solid grey;
+        border-bottom: 17px double black;
+        border-top: 6px solid black;
         content: "";
         height: 5px;
         width: 30px;
         display: block;
-        margin-left: -40px;
+
     }
     .logo {
-        margin-left: -10px;
+        margin-left: -30px;
     }
     .section_one {
         flex-direction: column;
@@ -253,9 +252,11 @@ a {
 
     .section_one_text_first {
         text-align:center;
+        padding: 10px;
     }
     .section_one_text_second {
         text-align: center;
+        padding: 10px;
     }
     .section_one_right_image {
         margin-left: -145px;
@@ -272,10 +273,10 @@ a {
     .section_two {
         flex-direction: column-reverse;
         align-items: center;
-        margin-top: 460px;
+        margin-top: 500px;
         display: flex;
         flex-flow: wrap;
-        height: 1000px;
+        height: 1100px;
     }
     .section_two_left_images {
         margin-left: -160px;
@@ -292,6 +293,7 @@ a {
     }
     .section_two_text_right_two {
         text-align:center;
+        padding: 20px;
     }
 
 }
